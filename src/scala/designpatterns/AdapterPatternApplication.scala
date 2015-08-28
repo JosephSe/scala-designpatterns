@@ -25,6 +25,6 @@ class LoggerToAdapter(logger: Logger) extends Log {
 
 object AdapterPatternApplication extends App {
 
-  new LoggerToAdapter(new Logger).warn("here is your warning")
+  new LoggerToAdapter(new Logger).warn("this is your warning")
 
 }
